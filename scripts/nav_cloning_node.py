@@ -51,10 +51,8 @@ class cource_following_learning_node:
         self.learning = True
         self.select_dl = False
         self.start_time = time.strftime("%Y%m%d_%H:%M:%S")
-        self.action_list = ['Front', 'Right', 'Left']
-        self.path = roslib.packages.get_pkg_dir('obstacle_avoidance') + '/data/result/'
-        self.save_path = roslib.packages.get_pkg_dir('obstacle_avoidance') + '/data/model/'
-        self.load_path = roslib.packages.get_pkg_dir('obstacle_avoidance') + '/data/model/20201117_08:50:05/model.net'
+        self.path = roslib.packages.get_pkg_dir('nav_cloning') + '/data/result/'
+        self.save_path = roslib.packages.get_pkg_dir('nav_cloning') + '/data/model/'
         self.previous_reset_time = 0
         self.start_time_s = rospy.get_time()
         os.makedirs(self.path + self.start_time)

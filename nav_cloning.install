@@ -1,0 +1,20 @@
+- git:
+    uri: https://github.com/open-rdc/fulanghua_navigation
+    local-name: fulanghua_navigation
+    version: long_period
+- git:
+    uri: https://github.com/open-rdc/turtlebot3
+    local-name: turtlebot3
+    version: 3_cameras
+- git:
+    uri: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+    local-name: turtlebot3_msgs
+    version: melodic-devel
+- git:
+    uri: https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+    local-name: turtlebot3_simulations
+    version: melodic-devel
+- git:
+    uri: https://github.com/ROBOTIS-GIT/turtlebot3_gazebo_plugin.git
+    local-name: turtlebot3_gazebo_plugin
+    version: melodic-devel

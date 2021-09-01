@@ -18,9 +18,13 @@ git clone https://github.com/MasayaOkada/nav_cloning.git
 wstool up
 wstool merge nav_cloning.install
 wstool up
+```
+* 依存パッケージのインストール
+```
+cd ~/catkin_ws/src
 rosdep init
 rosdep install
-cd ../../
+cd ../
 catkin_make
 ```
 * その他インストール

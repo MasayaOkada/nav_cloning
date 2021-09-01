@@ -17,8 +17,7 @@
 - git:
     uri: https://github.com/ROBOTIS-GIT/turtlebot3_gazebo_plugin.git
     local-name: turtlebot3_gazebo_plugin
-    version: melodic-devel
-
+    version: master
 - git:
     uri: https://github.com/MasayaOkada/nav_cloning.git
     local-name: nav_cloning

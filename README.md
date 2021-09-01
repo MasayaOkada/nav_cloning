@@ -14,8 +14,7 @@ catkin_make
 * nav_cloningの用意
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/MasayaOkada/nav_cloning.git
-cd ~/catkin_ws/src/nav_cloning
+wget https://raw.githubusercontent.com/MasayaOkada/nav_cloning/master/nav_cloning.install
 wstool init
 wstool merge nav_cloning.install
 wstool up

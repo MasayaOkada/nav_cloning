@@ -23,12 +23,13 @@ wstool up
 ```
 cd ~/catkin_ws/src
 rosdep init
-rosdep install
+rosdep install --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
 cd ../
 catkin_make
 ```
 * その他インストール
 ```
+sudo apt install python-pip
 pip install chainer==6.0
 pip install scikit-image
 ```

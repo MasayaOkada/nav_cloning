@@ -149,7 +149,7 @@ class cource_following_learning_node:
             distance = self.min_distance
             
             if self.angle_error > 0.05:
-              	self.action, self.loss = self.dl.act_and_trains(imgobj, target_action)
+              self.action, self.loss = self.dl.act_and_trains(imgobj, target_action)
               if target_action > 0.2:
                 	self.count_l += 1
               elif target_action < -0.2:

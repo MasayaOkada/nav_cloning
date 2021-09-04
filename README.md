@@ -33,3 +33,14 @@ sudo apt install python-pip
 pip install chainer==6.0
 pip install scikit-image
 ```
+## Docker
+* Usage
+example:
+```
+cd ~/catkin_ws/src/nav_cloning/docker
+docker-compose up
+```
+or
+```
+docker pull -p 8080:80 masayaokada/nav_cloning:melodic-desktop
+```

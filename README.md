@@ -36,6 +36,7 @@ pip install scikit-image
 ## Docker
 * Usage
 example:
+1. 起動
 ```
 cd ~/catkin_ws/src/nav_cloning/docker
 docker-compose up
@@ -44,3 +45,5 @@ or
 ```
 docker pull -p 8080:80 masayaokada/nav_cloning:melodic-desktop
 ```
+2. アクセス
+Access to http://localhost:8080
